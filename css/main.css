@@ -6,15 +6,6 @@ main {
   background-color: #f2f2f2;
 }
 
-tbody th {
-  font-weight: normal;
-  font-style: italic;
-}
-
-tfoot {
-  font-weight: bold;
-}
-
 tbody tr:nth-child(odd) {
   background-color: #e2e2e2;
 }
@@ -37,7 +28,7 @@ table {
 
 @media only screen and (min-width: 60em) {
 
-  .table-wrap {
+  .table-wrapper {
     overflow: visible;
   }
 
